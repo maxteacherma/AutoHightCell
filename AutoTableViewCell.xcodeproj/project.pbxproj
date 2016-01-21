@@ -1,0 +1,550 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FA86F2101C50CB1000A68413 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FA86F20F1C50CB1000A68413 /* main.m */; };
+		FA86F2131C50CB1000A68413 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FA86F2121C50CB1000A68413 /* AppDelegate.m */; };
+		FA86F2161C50CB1000A68413 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FA86F2151C50CB1000A68413 /* ViewController.m */; };
+		FA86F2191C50CB1100A68413 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA86F2171C50CB1100A68413 /* Main.storyboard */; };
+		FA86F21B1C50CB1100A68413 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FA86F21A1C50CB1100A68413 /* Assets.xcassets */; };
+		FA86F21E1C50CB1100A68413 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA86F21C1C50CB1100A68413 /* LaunchScreen.storyboard */; };
+		FA86F2291C50CB1100A68413 /* AutoTableViewCellTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FA86F2281C50CB1100A68413 /* AutoTableViewCellTests.m */; };
+		FA86F2341C50CB1100A68413 /* AutoTableViewCellUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = FA86F2331C50CB1100A68413 /* AutoTableViewCellUITests.m */; };
+		FA86F2431C50CC2A00A68413 /* AutoCell.m in Sources */ = {isa = PBXBuildFile; fileRef = FA86F2421C50CC2A00A68413 /* AutoCell.m */; };
+		FA86F2461C50CEE400A68413 /* UIView+RSAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = FA86F2451C50CEE400A68413 /* UIView+RSAdditions.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FA86F2251C50CB1100A68413 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FA86F2031C50CB1000A68413 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FA86F20A1C50CB1000A68413;
+			remoteInfo = AutoTableViewCell;
+		};
+		FA86F2301C50CB1100A68413 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FA86F2031C50CB1000A68413 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FA86F20A1C50CB1000A68413;
+			remoteInfo = AutoTableViewCell;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FA86F20B1C50CB1000A68413 /* AutoTableViewCell.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AutoTableViewCell.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA86F20F1C50CB1000A68413 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FA86F2111C50CB1000A68413 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		FA86F2121C50CB1000A68413 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		FA86F2141C50CB1000A68413 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		FA86F2151C50CB1000A68413 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		FA86F2181C50CB1100A68413 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FA86F21A1C50CB1100A68413 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FA86F21D1C50CB1100A68413 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FA86F21F1C50CB1100A68413 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FA86F2241C50CB1100A68413 /* AutoTableViewCellTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AutoTableViewCellTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA86F2281C50CB1100A68413 /* AutoTableViewCellTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AutoTableViewCellTests.m; sourceTree = "<group>"; };
+		FA86F22A1C50CB1100A68413 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FA86F22F1C50CB1100A68413 /* AutoTableViewCellUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AutoTableViewCellUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA86F2331C50CB1100A68413 /* AutoTableViewCellUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AutoTableViewCellUITests.m; sourceTree = "<group>"; };
+		FA86F2351C50CB1100A68413 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FA86F2411C50CC2A00A68413 /* AutoCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AutoCell.h; path = AutoTableViewCell/AutoCell.h; sourceTree = SOURCE_ROOT; };
+		FA86F2421C50CC2A00A68413 /* AutoCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AutoCell.m; path = AutoTableViewCell/AutoCell.m; sourceTree = SOURCE_ROOT; };
+		FA86F2441C50CEE400A68413 /* UIView+RSAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIView+RSAdditions.h"; path = "../UIView+RSAdditions.h"; sourceTree = "<group>"; };
+		FA86F2451C50CEE400A68413 /* UIView+RSAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIView+RSAdditions.m"; path = "../UIView+RSAdditions.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FA86F2081C50CB1000A68413 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA86F2211C50CB1100A68413 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA86F22C1C50CB1100A68413 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FA86F2021C50CB1000A68413 = {
+			isa = PBXGroup;
+			children = (
+				FA86F20D1C50CB1000A68413 /* AutoTableViewCell */,
+				FA86F2271C50CB1100A68413 /* AutoTableViewCellTests */,
+				FA86F2321C50CB1100A68413 /* AutoTableViewCellUITests */,
+				FA86F20C1C50CB1000A68413 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FA86F20C1C50CB1000A68413 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FA86F20B1C50CB1000A68413 /* AutoTableViewCell.app */,
+				FA86F2241C50CB1100A68413 /* AutoTableViewCellTests.xctest */,
+				FA86F22F1C50CB1100A68413 /* AutoTableViewCellUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FA86F20D1C50CB1000A68413 /* AutoTableViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				FA86F24A1C50DCC500A68413 /* Fibs */,
+				FA86F2491C50DCB500A68413 /* AutoCell */,
+				FA86F2111C50CB1000A68413 /* AppDelegate.h */,
+				FA86F2121C50CB1000A68413 /* AppDelegate.m */,
+				FA86F2141C50CB1000A68413 /* ViewController.h */,
+				FA86F2151C50CB1000A68413 /* ViewController.m */,
+				FA86F2171C50CB1100A68413 /* Main.storyboard */,
+				FA86F21A1C50CB1100A68413 /* Assets.xcassets */,
+				FA86F21C1C50CB1100A68413 /* LaunchScreen.storyboard */,
+				FA86F21F1C50CB1100A68413 /* Info.plist */,
+				FA86F20E1C50CB1000A68413 /* Supporting Files */,
+			);
+			path = AutoTableViewCell;
+			sourceTree = "<group>";
+		};
+		FA86F20E1C50CB1000A68413 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FA86F20F1C50CB1000A68413 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FA86F2271C50CB1100A68413 /* AutoTableViewCellTests */ = {
+			isa = PBXGroup;
+			children = (
+				FA86F2281C50CB1100A68413 /* AutoTableViewCellTests.m */,
+				FA86F22A1C50CB1100A68413 /* Info.plist */,
+			);
+			path = AutoTableViewCellTests;
+			sourceTree = "<group>";
+		};
+		FA86F2321C50CB1100A68413 /* AutoTableViewCellUITests */ = {
+			isa = PBXGroup;
+			children = (
+				FA86F2331C50CB1100A68413 /* AutoTableViewCellUITests.m */,
+				FA86F2351C50CB1100A68413 /* Info.plist */,
+			);
+			path = AutoTableViewCellUITests;
+			sourceTree = "<group>";
+		};
+		FA86F2491C50DCB500A68413 /* AutoCell */ = {
+			isa = PBXGroup;
+			children = (
+				FA86F2411C50CC2A00A68413 /* AutoCell.h */,
+				FA86F2421C50CC2A00A68413 /* AutoCell.m */,
+			);
+			path = AutoCell;
+			sourceTree = "<group>";
+		};
+		FA86F24A1C50DCC500A68413 /* Fibs */ = {
+			isa = PBXGroup;
+			children = (
+				FA86F2441C50CEE400A68413 /* UIView+RSAdditions.h */,
+				FA86F2451C50CEE400A68413 /* UIView+RSAdditions.m */,
+			);
+			path = Fibs;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FA86F20A1C50CB1000A68413 /* AutoTableViewCell */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FA86F2381C50CB1100A68413 /* Build configuration list for PBXNativeTarget "AutoTableViewCell" */;
+			buildPhases = (
+				FA86F2071C50CB1000A68413 /* Sources */,
+				FA86F2081C50CB1000A68413 /* Frameworks */,
+				FA86F2091C50CB1000A68413 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AutoTableViewCell;
+			productName = AutoTableViewCell;
+			productReference = FA86F20B1C50CB1000A68413 /* AutoTableViewCell.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FA86F2231C50CB1100A68413 /* AutoTableViewCellTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FA86F23B1C50CB1100A68413 /* Build configuration list for PBXNativeTarget "AutoTableViewCellTests" */;
+			buildPhases = (
+				FA86F2201C50CB1100A68413 /* Sources */,
+				FA86F2211C50CB1100A68413 /* Frameworks */,
+				FA86F2221C50CB1100A68413 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FA86F2261C50CB1100A68413 /* PBXTargetDependency */,
+			);
+			name = AutoTableViewCellTests;
+			productName = AutoTableViewCellTests;
+			productReference = FA86F2241C50CB1100A68413 /* AutoTableViewCellTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FA86F22E1C50CB1100A68413 /* AutoTableViewCellUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FA86F23E1C50CB1100A68413 /* Build configuration list for PBXNativeTarget "AutoTableViewCellUITests" */;
+			buildPhases = (
+				FA86F22B1C50CB1100A68413 /* Sources */,
+				FA86F22C1C50CB1100A68413 /* Frameworks */,
+				FA86F22D1C50CB1100A68413 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FA86F2311C50CB1100A68413 /* PBXTargetDependency */,
+			);
+			name = AutoTableViewCellUITests;
+			productName = AutoTableViewCellUITests;
+			productReference = FA86F22F1C50CB1100A68413 /* AutoTableViewCellUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FA86F2031C50CB1000A68413 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = DLD;
+				TargetAttributes = {
+					FA86F20A1C50CB1000A68413 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					FA86F2231C50CB1100A68413 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = FA86F20A1C50CB1000A68413;
+					};
+					FA86F22E1C50CB1100A68413 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = FA86F20A1C50CB1000A68413;
+					};
+				};
+			};
+			buildConfigurationList = FA86F2061C50CB1000A68413 /* Build configuration list for PBXProject "AutoTableViewCell" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FA86F2021C50CB1000A68413;
+			productRefGroup = FA86F20C1C50CB1000A68413 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FA86F20A1C50CB1000A68413 /* AutoTableViewCell */,
+				FA86F2231C50CB1100A68413 /* AutoTableViewCellTests */,
+				FA86F22E1C50CB1100A68413 /* AutoTableViewCellUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FA86F2091C50CB1000A68413 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA86F21E1C50CB1100A68413 /* LaunchScreen.storyboard in Resources */,
+				FA86F21B1C50CB1100A68413 /* Assets.xcassets in Resources */,
+				FA86F2191C50CB1100A68413 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA86F2221C50CB1100A68413 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA86F22D1C50CB1100A68413 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FA86F2071C50CB1000A68413 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA86F2161C50CB1000A68413 /* ViewController.m in Sources */,
+				FA86F2131C50CB1000A68413 /* AppDelegate.m in Sources */,
+				FA86F2431C50CC2A00A68413 /* AutoCell.m in Sources */,
+				FA86F2461C50CEE400A68413 /* UIView+RSAdditions.m in Sources */,
+				FA86F2101C50CB1000A68413 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA86F2201C50CB1100A68413 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA86F2291C50CB1100A68413 /* AutoTableViewCellTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA86F22B1C50CB1100A68413 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA86F2341C50CB1100A68413 /* AutoTableViewCellUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FA86F2261C50CB1100A68413 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FA86F20A1C50CB1000A68413 /* AutoTableViewCell */;
+			targetProxy = FA86F2251C50CB1100A68413 /* PBXContainerItemProxy */;
+		};
+		FA86F2311C50CB1100A68413 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FA86F20A1C50CB1000A68413 /* AutoTableViewCell */;
+			targetProxy = FA86F2301C50CB1100A68413 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FA86F2171C50CB1100A68413 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FA86F2181C50CB1100A68413 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FA86F21C1C50CB1100A68413 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FA86F21D1C50CB1100A68413 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FA86F2361C50CB1100A68413 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		FA86F2371C50CB1100A68413 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FA86F2391C50CB1100A68413 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = AutoTableViewCell/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = DLD.AutoTableViewCell;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		FA86F23A1C50CB1100A68413 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = AutoTableViewCell/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = DLD.AutoTableViewCell;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		FA86F23C1C50CB1100A68413 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = AutoTableViewCellTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = DLD.AutoTableViewCellTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AutoTableViewCell.app/AutoTableViewCell";
+			};
+			name = Debug;
+		};
+		FA86F23D1C50CB1100A68413 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = AutoTableViewCellTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = DLD.AutoTableViewCellTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AutoTableViewCell.app/AutoTableViewCell";
+			};
+			name = Release;
+		};
+		FA86F23F1C50CB1100A68413 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = AutoTableViewCellUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = DLD.AutoTableViewCellUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = AutoTableViewCell;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		FA86F2401C50CB1100A68413 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = AutoTableViewCellUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = DLD.AutoTableViewCellUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = AutoTableViewCell;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FA86F2061C50CB1000A68413 /* Build configuration list for PBXProject "AutoTableViewCell" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA86F2361C50CB1100A68413 /* Debug */,
+				FA86F2371C50CB1100A68413 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FA86F2381C50CB1100A68413 /* Build configuration list for PBXNativeTarget "AutoTableViewCell" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA86F2391C50CB1100A68413 /* Debug */,
+				FA86F23A1C50CB1100A68413 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FA86F23B1C50CB1100A68413 /* Build configuration list for PBXNativeTarget "AutoTableViewCellTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA86F23C1C50CB1100A68413 /* Debug */,
+				FA86F23D1C50CB1100A68413 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FA86F23E1C50CB1100A68413 /* Build configuration list for PBXNativeTarget "AutoTableViewCellUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA86F23F1C50CB1100A68413 /* Debug */,
+				FA86F2401C50CB1100A68413 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FA86F2031C50CB1000A68413 /* Project object */;
+}
